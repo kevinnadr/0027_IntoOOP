@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class bangundatar{
+class bangunDatar{
 
     //akses modifier
     private:
@@ -28,7 +28,7 @@ class bangundatar{
 };
 
 int main () {
-    bangundatar pp; // deklarasi objek pp dari class bangundatar
+    bangunDatar pp; // deklarasi objek pp dari class bangundatar
     pp.input();
     pp.display();
 
