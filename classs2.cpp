@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class bangundatar{
+class Mahasiswa{
     public: // akses modifier
         string nama;
         int umur;
@@ -19,7 +19,7 @@ class Matakuliah{
     private:
         string kodeMk;
         string namaMk;
-        int sks
+        int sks;
     public :
         void input(){
             cout << "Kode MK : ";
@@ -49,5 +49,6 @@ int main () {
 
     mk.input();
     mk.output();
+
     return 0;
 }
