@@ -13,4 +13,8 @@ class bangundatar{
             cout << "Jurusan : " << jurusan << endl;
         }
     
+};
+
+class Matakuliah{
+    
 }
