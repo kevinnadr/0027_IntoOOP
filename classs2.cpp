@@ -20,7 +20,7 @@ class Matakuliah{
         string kodeMk;
         string namaMk;
         int sks
-    public:
+    public :
         void input(){
             cout << "Kode MK : ";
             cin >> kodeMk;
@@ -36,4 +36,18 @@ class Matakuliah{
             cout << "SKS : " << sks << endl;
         }
     
+}; 
+
+int main () {
+    Mahasiswa mhs;
+    Matakuliah mk;
+
+    mhs.nama = "Budi";
+    mhs.umur = 20;
+    mhs.jurusan = "Teknik Informatika";
+    mhs.output();
+
+    mk.input();
+    mk.output();
+    return 0;
 }
